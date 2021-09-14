@@ -1,8 +1,8 @@
-#fakeSMTPserver
+# fakeSMTPserver
 
 Local SMTP server for local development. Capture all SMTP emails in local.
 
-###Installation
+### Installation
 
 Pre-requisite: golang
 
@@ -14,7 +14,7 @@ go build
 
 After *go build* the binary will be reachable from $(go env GOPATH)/bin
 
-###Usage
+### Usage
 
 Start listening on port 2025
 ```

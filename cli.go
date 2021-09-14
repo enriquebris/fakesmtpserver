@@ -15,7 +15,7 @@ const (
 
 func cliInitialize() {
 	app := &cli.App{
-		Name:  "fakeSMTPServer",
+		Name:  "fakeSMTPserver",
 		Usage: "local development SMTP server",
 		Action: func(c *cli.Context) error {
 			fmt.Printf("%v v%v\ntype %v -help for help\n", appName, appVersion, os.Args[0])
@@ -41,6 +41,13 @@ func cliInitialize() {
 						Aliases: []string{"d"},
 						Value:   "localhost",
 						Usage:   "domain",
+					},
+
+					&cli.BoolFlag{
+						Name:    "allowInsecureAuth",
+						Aliases: []string{"aia"},
+						Value:   false,
+						Usage:   "allow insecure auth",
 					},
 				},
 

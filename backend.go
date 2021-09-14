@@ -36,13 +36,11 @@ func (s *Session) AuthPlain(username, password string) error {
 }
 
 func (s *Session) Mail(from string, opts gosmtp.MailOptions) error {
-	//log.Println("Mail from:", from)
 	log.Printf("[from] :: %v\n", from)
 	return nil
 }
 
 func (s *Session) Rcpt(to string) error {
-	//log.Println("Rcpt to:", to)
 	log.Printf("[to] :: %v\n", to)
 	return nil
 }
@@ -51,7 +49,6 @@ func (s *Session) Data(r io.Reader) error {
 	if b, err := ioutil.ReadAll(r); err != nil {
 		return err
 	} else {
-		//log.Println("Data:", string(b))
 		log.Printf("[data] :: %v\n", string(b))
 	}
 	return nil
