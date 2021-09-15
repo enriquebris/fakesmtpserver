@@ -1,4 +1,4 @@
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=enriquebris_fakesmtpserver)](https://sonarcloud.io/dashboard?id=enriquebris_fakesmtpserver)  [![CodeFactor](https://www.codefactor.io/repository/github/enriquebris/fakesmtpserver/badge)](https://www.codefactor.io/repository/github/enriquebris/fakesmtpserver)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=enriquebris_fakesmtpserver&metric=alert_status)](https://sonarcloud.io/dashboard?id=enriquebris_fakesmtpserver)  [![CodeFactor](https://www.codefactor.io/repository/github/enriquebris/fakesmtpserver/badge)](https://www.codefactor.io/repository/github/enriquebris/fakesmtpserver)
 
 # fakeSMTPserver
 
