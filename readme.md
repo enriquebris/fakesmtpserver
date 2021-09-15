@@ -1,3 +1,5 @@
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=enriquebris_fakesmtpserver)](https://sonarcloud.io/dashboard?id=enriquebris_fakesmtpserver)
+
 # fakeSMTPserver
 
 SMTP server for local development. Capture all incoming SMTP emails and send them to standard output. Quick and simple.
