@@ -1,6 +1,6 @@
 # fakeSMTPserver
 
-Local SMTP server for local development. Capture all SMTP emails in local.
+SMTP server for local development. Capture all incoming SMTP emails and send them to standard output. Quick and simple.
 
 ### Installation
 
