@@ -4,7 +4,7 @@ SMTP server for local development. Capture all incoming SMTP emails and send the
 
 ### Installation
 
-#### For general users
+#### For general users (no dependencies)
 ```
 curl -sf https://gobinaries.com/enriquebris/fakesmtpserver | sh
 ```
