@@ -4,6 +4,12 @@ Local SMTP server for local development. Capture all SMTP emails in local.
 
 ### Installation
 
+#### For general users
+```
+curl -sf https://gobinaries.com/enriquebris/fakesmtpserver | sh
+```
+
+#### For golang users
 Pre-requisite: golang
 
 ```
